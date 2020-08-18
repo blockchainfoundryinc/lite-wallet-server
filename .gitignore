@@ -1,2 +1,4 @@
 syscoin/*
 !/syscoin/syscoin.conf
+certs/*
+!/certs/PASTE_CERTS_HERE
