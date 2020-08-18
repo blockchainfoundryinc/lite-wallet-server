@@ -23,7 +23,7 @@ services:
       - ./certs/bbcert.crt:/go/src/blockbook/server/testcert.crt
       - ./certs/bbcert.key:/go/src/blockbook/server/testcert.key
     ports:
-      - 9132:9130
+      - 9130:9130
     restart: always
     links:
       - syscoin
