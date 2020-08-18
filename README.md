@@ -1,10 +1,16 @@
-# Syscoin wallet dev kit
+# Syscoin lite wallet server
+
+This project contains a series of components which provide all the backend components needed to facilitate a fully-featured Lite wallet experience for Syscoin and Syscoin platform tokens. This includes:
+- [Blockbook APIs](https://github.com/syscoin/blockbook) for fetching, listing, ordering and paging historical transaction data 
+- [Syscoin-websocket-server](https://github.com/blockchainfoundryinc/syscoin-websocket-server)) a SocketIO server for realtime ZDAG updates and realtime updates around other blockchain events. 
+
+All components are wrapped in docket containers for ease of deployment.
 
 This bundle contains:
 
 - Syscoind: Syscoin core.
-- Blockbook: Block explorer
-- Syscoin-websocket: receive realtime notifications around an address.
+- Syscoin Blockbook: Block explorer
+- Syscoin-websocket-server: receive realtime notifications around an address. Includes regular tx information as well as ZDAG tx information.
 
 ### Dependencies and installation
 
